@@ -1,5 +1,5 @@
 - idea:
-The first super mario bros game from marios perspcetive.
+The first super mario bros game from marios perspcetive. mixed with a parkour sim
 
 - assets:
 map:
@@ -24,6 +24,24 @@ handles movement including power ups
 background/foreground:
 image of the sky/clouds
 person watching screen
+
+
+
+development cycle:
+
+1. create skeleton
+mechanics
+dependencies
+feel
+
+2. fine tune gameplay
+test game
+dont compromise on problems/ glitches
+
+3. finish
+polish the look and feel of the game.
+
+
 
 
 possible ideas:
