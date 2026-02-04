@@ -1,0 +1,32 @@
+- idea:
+The first super mario bros game from marios perspcetive.
+
+- assets:
+map:
+  bricks: normal, star, shroom coin, ? brick/ pipes, flag, castle
+  physics iteractions as ground
+
+items:
+  coins, shrooms, star
+generated at the same time as the map
+disappear / disabled after  being picked up
+provide power up or add to score  when acquired
+
+enemies:
+goombas, koopa troups
+handles damage, health, and dying
+
+player:
+mario preferably able to see hands and feet while running
+handles damage, health, and dying
+handles movement including power ups
+
+background/foreground:
+image of the sky/clouds
+person watching screen
+
+
+possible ideas:
+sliding and grappling walls
+
+use modularity and reuse scenes if possible(damage/ killzones)
