@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://73msagb46t02"]
+
+[ext_resource type="PackedScene" uid="uid://cd0q6a4yyduyo" path="res://assets/mario_brick_block/scene.gltf" id="1_rkm3e"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_gvyne"]
+
+[node name="Brick Layer" type="Area3D" unique_id=83539424]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.16729891, 0)
+
+[node name="Sketchfab_Scene" parent="." unique_id=1615485732 instance=ExtResource("1_rkm3e")]
+transform = Transform3D(0.009929397, 0, 0, 0, 0.009402226, 0, 0, 0, 0.009117513, 0.0005079508, -0.13443172, -0.14965647)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1461353642]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.39864528, 0)
+shape = SubResource("BoxShape3D_gvyne")
+debug_fill = false
